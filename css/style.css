@@ -1,0 +1,1316 @@
+/* Framework footer redes sociales ----- linea 116 - 200*/
+      /* Este Framework esta extraido de uiverse.io (https://uiverse.io/vinodjangid07/horrible-eel-23) */
+
+/* Framework Boton Realizar compra del carrito ---- linea 431 - 480*/
+      /* Obtenido de uiverse.io (https://uiverse.io/cssbuttons-io/stale-rattlesnake-87)*/
+
+/* Framework Boton Añadir al carrito de productos ------ linea 722 - 758*/
+      /* Obtenido de uiverse.io (https://uiverse.io/cssbuttons-io/stale-rattlesnake-87)*/
+
+/* Framework Boton modo oscuro -------- linea 765 - 872*/
+      /* Obtenido de uiverse.io (https://uiverse.io/Emil190313/dull-robin-39) */ 
+
+/* ------------------------------------------------------Estilos generales-------------------------------------------- */
+/* Estilos generales del cuerpo del documento */
+body {
+  font-family: Arial, Helvetica, sans-serif; /* Define la fuente del texto */
+  line-height: 1.6; /* Ajusta el interlineado para mejorar la legibilidad */
+  color: #333; /* Establece el color del texto en un tono gris oscuro */
+}
+
+/* Estilos para el elemento con id "i1" */
+#i1 {
+  width: 70px; /* Establece un ancho fijo de 70 píxeles */
+  height: auto; /* Mantiene la proporción original de la imagen */
+}
+
+/* Estilos para el elemento con id "di2" */
+#di2 {
+  max-width: auto; /* ⚠️ Esto no tiene efecto, ya que "auto" no es un valor válido para max-width */
+  padding: 20px; /* Agrega un espacio interno de 20 píxeles alrededor del contenido */
+}
+
+/* Estilos para los enlaces */
+a {
+  text-decoration: none; /* Elimina el subrayado predeterminado de los enlaces */
+  color: inherit; /* Hace que el color del enlace sea el mismo que el del texto del elemento padre */
+}
+
+/* Estilos para las listas no ordenadas */
+ul {
+  list-style: none; /* Elimina los estilos de viñetas de las listas */
+}
+
+/* ------------------------------------------------------------------Estilos del encabezado ---------------------------------------------------*/
+/* Define la apariencia y el comportamiento del encabezado de la web */
+header {
+  background-color: #fff; /* Establece el fondo del encabezado en color blanco */
+  top: 0; /* Fija el encabezado en la parte superior de la página */
+  position: sticky; /* Hace que el encabezado permanezca visible al hacer scroll */
+}
+
+/* Estilos para el contenedor con id "di0" dentro del encabezado */
+header #di0 {
+  display: flex; /* Usa flexbox para organizar los elementos dentro del contenedor */
+  justify-content: center; /* Centra los elementos horizontalmente */
+  align-items: center; /* Centra los elementos verticalmente */
+  padding: 20px; /* Agrega un espacio interno de 20 píxeles alrededor del contenido */
+}
+
+/* Estilos para la lista de navegación */
+nav ul {
+  display: flex; /* Muestra los elementos de la lista en línea (horizontalmente) */
+}
+
+/* Estilos para los elementos de la lista dentro de la navegación */
+nav ul li {
+  margin-left: 20px; /* Agrega un margen izquierdo de 20 píxeles entre los elementos de la lista */
+}
+
+/* Estilos para los enlaces dentro de la lista de navegación */
+nav ul li a {
+  font-weight: bold; /* Hace que el texto de los enlaces sea más grueso (negrita) */
+}
+
+
+/* -----------------------------------------------------------Estilos del footer--------------------------------------------- */
+/* Define la apariencia del footer y sus elementos */
+footer {
+  background-color: #000; /* Establece el fondo del pie de página en negro */
+  color: #fff; /* Establece el color del texto en blanco */
+  padding: 60px 0 20px; /* Agrega espacio interno: 60px arriba, 0 a los lados y 20px abajo */
+}
+
+/* Contenedor principal dentro del footer */
+#di3 {
+  display: grid; /* Usa CSS Grid para organizar los elementos en una cuadrícula */
+  grid-template-columns: repeat(4, 1fr); /* Crea 4 columnas de igual ancho */
+  gap: 30px; /* Agrega un espacio de 30px entre los elementos de la cuadrícula */
+  margin-bottom: 40px; /* Añade un margen inferior de 40px */
+}
+
+/* Estilos para los títulos dentro del contenedor #di4 */
+#di4 h4 {
+  font-size: 18px; /* Ajusta el tamaño de la fuente a 18px */
+  margin-bottom: 5px; /* Añade un pequeño espacio debajo del título */
+}
+
+/* Estilos para los elementos de la lista dentro de #di4 */
+#di4 ul li {
+  margin-bottom: 10px; /* Agrega un margen inferior de 10px entre elementos de la lista */
+}
+
+/* Estilos para los enlaces dentro de la lista en #di4 cuando el usuario pasa el mouse */
+#di4 ul li a:hover {
+  text-decoration: underline; /* Subraya el enlace al pasar el cursor sobre él */
+}
+
+/* Estilos para el contenedor #di5 */
+#di5 {
+  text-align: center; /* Centra el texto dentro de este contenedor */
+}
+
+
+/*---------------------------------------------------------------------------------------------------*/
+/*---------------------------------------------------------------------------------------------------*/
+/* Inicio Framework Footer */
+/*---------------------------------------------------------------------------------------------------*/
+/*---------------------------------------------------------------------------------------------------*/
+
+
+/* ----------------------------------------------------------------------------Estilos para los iconos de redes sociales-------------------------------------------------------- */
+/* Estos estilos crean un efecto de hover para los iconos de redes sociales */
+.card {
+  width: fit-content; /* Ajusta el ancho al contenido */
+  height: fit-content; /* Ajusta la altura al contenido */
+  background-color: rgb(0, 0, 0); /* Establece el fondo negro */
+  display: flex; /* Usa flexbox para organizar los elementos */
+  align-items: center; /* Centra los elementos verticalmente */
+  justify-content: center; /* Centra los elementos horizontalmente */
+  padding: 25px 25px; /* Agrega espacio interno de 25px en todos los lados */
+  gap: 20px; /* Espaciado entre los iconos */
+  box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.055); /* Sombra alrededor de la tarjeta */
+}
+
+/* Contenedor de cada icono social */
+.socialContainer {
+  width: 52px; /* Establece un tamaño fijo para los iconos */
+  height: 52px; /* Igual que el ancho para formar un cuadrado */
+  background-color: rgb(0, 0, 0); /* Fondo negro */
+  display: flex; /* Usa flexbox para centrar el contenido */
+  align-items: center; /* Centra verticalmente */
+  justify-content: center; /* Centra horizontalmente */
+  overflow: hidden; /* Oculta el contenido que sobresalga */
+  transition-duration: .3s; /* Suaviza la transición de efectos */
+}
+
+/* Cambia el color de fondo cuando se pasa el ratón sobre cada icono */
+/* Instagram */
+.containerOne:hover {
+  background-color: #d62976; /* Color de Instagram */
+  transition-duration: .3s; /* Suaviza la transición */
+}
+/* Twitter */
+.containerTwo:hover {
+  background-color: #00acee; /* Color de Twitter */
+  transition-duration: .3s;
+}
+/* TikTok */
+.containerFour:hover {
+  background-color: #9648d6; /* Color de TikTok */
+  transition-duration: .3s;
+}
+
+/* Efecto de escala cuando se hace clic en un icono social */
+.socialContainer:active {
+  transform: scale(0.9); /* Reduce ligeramente el tamaño */
+  transition-duration: .3s;
+}
+
+/* Estilos para los iconos SVG dentro de los contenedores */
+.socialSvg {
+  width: 17px; /* Ajusta el tamaño del icono */
+}
+
+/* Cambia el color de los iconos a blanco */
+.socialSvg path {
+  fill: rgb(255, 255, 255); /* Color blanco para los iconos */
+}
+
+/* Efecto de animación al pasar el mouse sobre un icono */
+.socialContainer:hover .socialSvg {
+  animation: slide-in-top 0.3s both; /* Aplica la animación definida más abajo */
+}
+
+/* Definición de la animación de entrada desde arriba */
+@keyframes slide-in-top {
+  0% {
+    transform: translateY(-50px); /* Empieza movido hacia arriba */
+    opacity: 0; /* Inicia invisible */
+  }
+  100% {
+    transform: translateY(0); /* Termina en su posición normal */
+    opacity: 1; /* Se hace visible */
+  }
+}
+
+
+/*---------------------------------------------------------------------------------------------------*/
+/*---------------------------------------------------------------------------------------------------*/
+/* Final Framework Footer */
+/*---------------------------------------------------------------------------------------------------*/
+/*---------------------------------------------------------------------------------------------------*/
+
+  
+/* ---------------------------------------------------------Estilos del carrusel----------------------------------------------------- */
+
+/* Contenedor principal del carrusel */
+#contenedor-carrusel {
+  width: 100%; /* Ocupa todo el ancho disponible */
+  height: 70vh; /* 70% de la altura de la ventana del navegador */
+  overflow: hidden; /* Oculta el contenido que sobresalga */
+}
+
+/* Contenedor interno del carrusel */
+#carrusel {
+  width: 100%;
+  height: 100%;
+  position: relative; /* Permite posicionar elementos de forma absoluta */
+}
+
+/* Oculta los inputs de tipo radio que controlan el carrusel */
+#carrusel input[type="radio"] {
+  display: none;
+}
+
+/* Contenedor de las diapositivas */
+#slides {
+  height: 100%;
+  position: relative;
+  z-index: 1; /* Asegura que las diapositivas estén en la parte superior */
+}
+
+/* Contenedor que agrupa todas las diapositivas */
+#overflow {
+  width: 300%; /* Hace que el contenedor sea tres veces el ancho del principal */
+  height: 100%;
+  overflow: hidden; /* Oculta el contenido fuera del área visible */
+}
+
+/* Estilos de cada diapositiva individual */
+#slide {
+  width: 33.33%; /* Cada diapositiva ocupa un tercio del contenedor total */
+  height: 100%;
+  float: left; /* Alinea las diapositivas en línea */
+  position: relative;
+  overflow: hidden; /* Evita que elementos internos sobresalgan */
+}
+
+/* Contenedor del contenido de cada diapositiva */
+#slide-contenido {
+  width: 100%;
+  height: 100%;
+}
+
+/* Imágenes dentro del carrusel */
+#slide-contenido img {
+  width: 100%; /* Ajusta la imagen al ancho del contenedor */
+  height: 100%; /* Ajusta la imagen a la altura del contenedor */
+  object-fit: cover; /* Mantiene la relación de aspecto y recorta si es necesario */
+}
+
+/* Contenedor del texto dentro de la diapositiva */
+#slide-texto {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%); /* Centra el texto en la diapositiva */
+  text-align: center;
+  color: #fff; /* Texto en color blanco */
+  background-color: rgba(0, 0, 0, 0.5); /* Fondo semitransparente para mejorar la legibilidad */
+  padding: 20px;
+  border-radius: 8px; /* Bordes redondeados */
+}
+
+/* Título dentro del slide */
+#slide-texto h2 {
+  font-size: 36px;
+  margin-bottom: 10px;
+}
+
+/* Párrafo dentro del slide */
+#slide-texto p {
+  font-size: 18px;
+  margin-bottom: 20px;
+}
+
+/* Botón dentro del slide */
+#boton {
+  display: inline-block;
+  background-color: #fff;
+  color: #000;
+  padding: 10px 20px;
+  font-weight: bold;
+  transition: background-color 0.3s; /* Suaviza el cambio de color */
+}
+
+/* Cambia el color de fondo cuando se pasa el ratón sobre el botón */
+#boton:hover {
+  background-color: #f0f0f0;
+}
+
+/* Controles de navegación del carrusel */
+#controles {
+  position: absolute;
+  bottom: 20px; /* Posiciona los controles en la parte inferior */
+  left: 50%;
+  transform: translateX(-50%); /* Centra los controles horizontalmente */
+  z-index: 2; /* Asegura que los controles estén por encima de las imágenes */
+}
+
+/* Botones de navegación del carrusel */
+#controles label {
+  display: inline-block;
+  width: 10px;
+  height: 10px;
+  background-color: #fff; /* Color de los botones de navegación */
+  border-radius: 50%; /* Hace que los botones sean círculos */
+  margin: 0 5px;
+  cursor: pointer; /* Cambia el cursor al pasar sobre los controles */
+}
+
+/* Configuración del desplazamiento del carrusel basado en los inputs radio */
+#slide1:checked ~ #slides #overflow {
+  margin-left: 0; /* Muestra la primera diapositiva */
+}
+#slide2:checked ~ #slides #overflow {
+  margin-left: -100%; /* Muestra la segunda diapositiva */
+}
+#slide3:checked ~ #slides #overflow {
+  margin-left: -200%; /* Muestra la tercera diapositiva */
+}
+
+/* Cambia el color del botón de navegación activo */
+#slide1:checked ~ #controles label:nth-child(1),
+#slide2:checked ~ #controles label:nth-child(2),
+#slide3:checked ~ #controles label:nth-child(3) {
+  background-color: #333; /* Se oscurece el botón del slide activo */
+}
+
+/* Transición al cambiar de diapositiva */
+#slides #overflow {
+  transition: all 0.3s ease;
+}
+
+
+/*------------------------------------------------------------------------- Estilos para la página de hombre, mujer, niños -----------------------------------------------------------*/
+#contenido-hombre {
+  width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+#contenido-hombre h1 {
+  text-align: center;
+  font-size: 32px;
+  margin: 20px 0 40px;
+}
+
+#categorias-hombre {
+  display: flex;
+  justify-content: space-between;
+  gap: 20px;
+}
+
+#categoria a {
+  text-decoration: none;
+  display: block;
+}
+
+#categoria img {
+  width: 100%;
+  height: 400px;
+  object-fit: cover;
+}
+
+#categoria h2 {
+  text-align: center;
+  margin-top: 10px;
+  font-size: 24px;
+}
+
+#categoria {
+    width: 100%;
+}
+
+
+
+/*----------------------------------------------------------------- Estilos para la página del carrito ----------------------------------------------------*/
+/* Contenedor principal del carrito */
+#contenido-carrito {
+  width: 1200px; /* Define un ancho fijo para la sección del carrito */
+  margin: 0 auto; /* Centra el contenido en la página */
+  padding: 20px; /* Agrega espacio interno alrededor del contenido */
+}
+
+/* Estilos del título principal */
+#contenido-carrito h1 {
+  text-align: center; /* Centra el texto */
+  font-size: 32px; /* Tamaño de fuente grande */
+  margin: 20px 0 40px; /* Espaciado superior e inferior */
+}
+
+/* Contenedor de la lista de productos en el carrito */
+#lista-productos {
+  margin-bottom: 40px; /* Agrega espacio al final de la lista de productos */
+}
+
+/* Estilos de cada producto dentro del carrito */
+#producto-carrito {
+  display: flex; /* Usa flexbox para alinear los elementos en fila */
+  align-items: center; /* Centra verticalmente los elementos */
+  padding: 20px; /* Agrega espacio interno */
+}
+
+/* Imágenes de los productos en el carrito */
+#producto-carrito img {
+  width: 150px; /* Define un tamaño fijo de imagen */
+  height: 150px;
+  object-fit: cover; /* Ajusta la imagen sin deformarla */
+}
+
+/* Contenedor de los detalles del producto */
+#detalles-producto {
+  flex-grow: 1; /* Permite que este contenedor ocupe todo el espacio disponible */
+}
+
+/* Estilos del nombre del producto */
+#detalles-producto h3 {
+  margin: 0 0 10px 15px; /* Espaciado para separar del borde y otros elementos */
+  font-size: 18px;
+}
+
+/* Estilos de la descripción del producto */
+#detalles-producto p {
+  margin: 5px 0;
+  color: #666; /* Color gris para diferenciar la descripción */
+}
+
+/* Contenedor del resumen de compra */
+#resumen-compra {
+  background-color: #f8f8f8; /* Fondo gris claro */
+  padding: 20px; /* Espaciado interno */
+  max-width: 400px; /* Define un ancho máximo */
+  margin-left: auto; /* Lo alinea a la derecha */
+}
+
+/* Título del resumen de compra */
+#resumen-compra h2 {
+  font-size: 24px;
+}
+
+/* Contenedor de los detalles del resumen */
+#detalles-resumen {
+  margin-bottom: 20px; /* Espaciado inferior */
+}
+
+/* Línea de resumen con precios */
+#linea-resumen {
+  display: flex; /* Usa flexbox para organizar los elementos en fila */
+  justify-content: space-between; /* Distribuye el espacio entre los elementos */
+}
+
+/* Estilos para la línea de total en el resumen */
+#linea-resumen.total {
+  margin-top: 10px;
+  font-weight: bold; /* Texto en negrita */
+  font-size: 18px;
+}
+
+
+/*---------------------------------------------------------------------------------------------------*/
+/*---------------------------------------------------------------------------------------------------*/
+/* Inicio Framework boton Realizar compra del Carrito */
+/*---------------------------------------------------------------------------------------------------*/
+/*---------------------------------------------------------------------------------------------------*/
+
+
+/* Este Framework le añade un estilo al boton de realizar la compra del carrito */
+/* Botón de comprar */
+#boton-comprar {
+  display: block; /* Hace que el botón ocupe todo el ancho disponible */
+  padding: 1.3em 3em; /* Espaciado interno para mejor apariencia */
+  font-size: 18px;
+  text-transform: uppercase; /* Convierte el texto a mayúsculas */
+  letter-spacing: 2.5px; /* Agrega espacio entre letras */
+  font-weight: 500;
+  color: #ffffff; /* Texto en color blanco */
+  border: none; /* Elimina el borde */
+  border-radius: 45px; /* Botón con esquinas redondeadas */
+  box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1); /* Agrega una sombra sutil */
+  transition: all 0.3s ease 0s; /* Suaviza la animación de cambios */
+  background-color: #000000; /* Color de fondo negro */
+  width: 90%; /* Hace que el botón ocupe casi todo el ancho */
+  margin-top: 20px; /* Espaciado superior */
+  text-align: center;
+  font-weight: bold;
+  cursor: pointer; /* Cambia el cursor al pasar sobre el botón */
+}
+
+/* Efecto hover para el botón de comprar */
+#boton-comprar:hover {
+  background-color: #23c483; /* Cambia a un color verde */
+  box-shadow: 0px 15px 20px rgba(46, 229, 157, 0.4); /* Agrega un efecto de sombra */
+  color: #fff;
+  transform: translateY(-7px); /* Eleva el botón al pasar el cursor */
+}
+
+/* Efecto al hacer clic en el botón de comprar */
+#boton-comprar:active {
+  transform: translateY(-1px); /* Reduce el efecto de elevación */
+}
+
+/* Ajustes adicionales del resumen de compra */
+#resumen-compra {
+  max-width: 100%; /* Permite que el resumen se expanda completamente */
+  margin-top: 20px;
+}
+
+
+/*---------------------------------------------------------------------------------------------------*/
+/*---------------------------------------------------------------------------------------------------*/
+/* Final Framework boton Realizar compra del Carrito */
+/*---------------------------------------------------------------------------------------------------*/
+/*---------------------------------------------------------------------------------------------------*/
+
+
+
+/*---------------------------------------------------------------- Estilos para la página de botas de fútbol ---------------------------------------------------------------*/
+#contenido-botas {
+  width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+#contenido-botas h1 {
+  text-align: center;
+  font-size: 32px;
+  margin: 20px 0 40px;
+  color: #333;
+}
+
+#contenedor-productos {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 20px;
+  padding: 0 20px;
+}
+
+#producto {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  transition: transform 0.2s;
+}
+
+#producto img {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+  margin-bottom: 10px;
+}
+
+#producto a {
+  text-decoration: none;
+  color: #333;
+  font-weight: bold;
+  text-align: center;
+  padding: 5px;
+}
+
+#producto a:hover {
+  color: #666;
+}
+
+
+
+/*-------------------------------------------------------- Estilos para las páginas de productos ------------------------------------------*/
+
+/* Contenedor principal de la página del producto */
+#contenido-producto {
+  width: 1450px; /* Define un ancho máximo para el contenido */
+  margin: 0 auto; /* Centra el contenido horizontalmente */
+  padding: 20px; /* Agrega espacio interno alrededor del contenido */
+}
+
+/* Estilos del título del producto */
+#contenido-producto h1 {
+  text-align: center; /* Centra el texto */
+  font-size: 32px; /* Tamaño de fuente grande */
+  margin: 20px 0 40px; /* Espaciado superior e inferior */
+  color: #333; /* Color de texto oscuro */
+}
+
+/* Contenedor de los detalles del producto */
+#detalles-producto {
+  display: flex; /* Usa flexbox para organizar los elementos en fila */
+  gap: 40px; /* Agrega un espacio entre los elementos */
+  margin-top: 20px; /* Espaciado superior */
+}
+
+/* Galería de imágenes del producto */
+#galeria-producto {
+  width: 50%; /* Ocupa la mitad del ancho disponible */
+  position: relative; /* Permite posicionar elementos de manera absoluta dentro */
+}
+
+
+/* ---------------------------------------------------Estilos del carrusel de productos---------------------------------------- */
+
+/* Contenedor principal del carrusel */
+#carrusel {
+  position: relative; /* Permite posicionar elementos de forma absoluta dentro */
+  width: 100%; /* Ocupa todo el ancho disponible */
+  height: 100%; /* Ocupa todo el alto del contenedor padre */
+  overflow: hidden; /* Oculta las imágenes que no están en vista */
+}
+
+/* Oculta los inputs de radio utilizados para cambiar las imágenes */
+#carrusel input[type="radio"] {
+  display: none; /* No se muestran en la interfaz */
+}
+
+/* Contenedor de las imágenes del carrusel */
+#imagenes {
+  width: 300%; /* Se multiplica por 3 el ancho para acomodar todas las imágenes */
+  height: 100%; /* Ocupa el alto completo del carrusel */
+  display: flex; /* Usa flexbox para colocar las imágenes en una fila */
+  transition: transform 0.5s ease; /* Agrega una transición al desplazamiento */
+}
+
+/* Estilos para cada imagen dentro del carrusel */
+#imagenes img {
+  width: 33.33%; /* Cada imagen ocupa un tercio del ancho total */
+  height: 100%; /* Ocupa todo el alto disponible */
+  object-fit: cover; /* Ajusta la imagen sin deformarla, cubriendo el área disponible */
+}
+
+/* Contenedor de los puntos de navegación */
+#puntos {
+  position: absolute; /* Se posiciona de forma absoluta dentro del carrusel */
+  bottom: 20px; /* Se coloca 20px desde la parte inferior */
+  left: 50%; /* Centra horizontalmente */
+  transform: translateX(-50%); /* Ajusta para centrarlo exactamente */
+  display: flex; /* Usa flexbox para alinear los puntos */
+  gap: 10px; /* Espaciado entre cada punto */
+}
+
+/* Estilos de los puntos de navegación */
+#puntos label {
+  width: 12px; /* Tamaño del punto */
+  height: 12px;
+  border-radius: 2px; /* Bordes ligeramente redondeados */
+  background-color: #ddd; /* Color gris claro por defecto */
+  cursor: pointer; /* Cambia el cursor a una mano para indicar que es interactivo */
+  transition: background-color 0.3s; /* Suaviza el cambio de color */
+}
+
+/* Cambio de color cuando el usuario pasa el cursor sobre un punto */
+#puntos label:hover {
+  background-color: #bbb; /* Se oscurece al hacer hover */
+}
+
+
+/* --------------------------------------Control del carrusel mediante los inputs---------------------------- */
+
+/* Cuando el input de la primera imagen está seleccionado, se muestra la primera imagen */
+#img1:checked ~ #imagenes {
+  transform: translateX(0);
+}
+
+/* Cuando el input de la segunda imagen está seleccionado, se desplaza el carrusel a la izquierda */
+#img2:checked ~ #imagenes {
+  transform: translateX(-33.33%);
+}
+
+/* Cuando el input de la tercera imagen está seleccionado, se desplaza aún más a la izquierda */
+#img3:checked ~ #imagenes {
+  transform: translateX(-66.66%);
+}
+
+/* Cambia el color del punto de navegación correspondiente cuando una imagen está seleccionada */
+#img1:checked ~ #puntos label:nth-child(1),
+#img2:checked ~ #puntos label:nth-child(2),
+#img3:checked ~ #puntos label:nth-child(3) {
+  background-color: #333; /* Color oscuro para indicar la selección */
+}
+
+
+/* Contenedor de la imagen principal del producto */
+#contenedor-imagen {
+  width: 100%; /* Ocupa todo el ancho disponible */
+  height: 500px; /* Altura fija */
+  border: 1px solid #ddd; /* Borde gris claro */
+  position: relative; /* Permite posicionar botones dentro del contenedor */
+  overflow: hidden; /* Evita desbordamientos */
+}
+
+/* Ajusta la imagen dentro del contenedor */
+#contenedor-imagen img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover; /* La imagen se ajusta sin deformarse */
+}
+
+/* Puntos de navegación del carrusel */
+#navegacion-puntos {
+  display: flex; /* Coloca los puntos en fila */
+  justify-content: center; /* Centra los puntos horizontalmente */
+  gap: 10px; /* Espaciado entre puntos */
+  margin-top: 20px; /* Margen superior */
+}
+
+/* Estilos para los puntos de navegación */
+#punto,
+#punto-activo {
+  width: 10px;
+  height: 10px;
+  border-radius: 50%; /* Forma circular */
+  background-color: #ddd; /* Color gris claro */
+}
+
+/* Punto activo que indica la imagen actual */
+#punto-activo {
+  background-color: #333; /* Color oscuro para destacar */
+}
+
+/* Información del producto */
+#info-producto {
+  width: 50%; /* Ocupa la mitad del contenedor padre */
+  display: flex; /* Usa flexbox */
+  flex-direction: column; /* Organiza los elementos en columna */
+  gap: 30px; /* Espaciado entre elementos */
+}
+
+/* Precio del producto */
+#precio h2 {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+#precio p {
+  font-size: 28px;
+  font-weight: bold;
+  color: #333;
+}
+
+/* Descripción del producto */
+#descripcion h2 {
+  font-size: 24px;
+  margin-bottom: 15px;
+  color: #000;
+}
+
+#descripcion p {
+  margin-bottom: 20px;
+  line-height: 1.6; /* Espaciado entre líneas */
+  color: #000;
+}
+
+/* Lista de características */
+#descripcion ul {
+  list-style: disc; /* Estilo de lista con viñetas */
+  margin-left: 20px;
+}
+
+#descripcion li {
+  margin-bottom: 10px;
+}
+
+/* Selección de tallas */
+#tallas {
+  margin-top: 20px;
+}
+
+/* Título de la sección de tallas */
+#tallas h3 {
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+
+/* Contenedor de los botones de selección */
+#selector-tallas {
+  display: flex;
+  flex-wrap: wrap; /* Permite que las tallas se acomoden en varias filas */
+  gap: 10px; /* Espaciado entre tallas */
+}
+
+/* Oculta los inputs de radio para tallas */
+#selector-tallas input[type="radio"] {
+  display: none;
+}
+
+/* Botones de selección de tallas */
+#selector-tallas label {
+  display: inline-block;
+  padding: 10px 15px;
+  background-color: #f0f0f0; /* Fondo gris claro */
+  border: 1px solid #ddd; /* Borde gris */
+  border-radius: 4px; /* Bordes redondeados */
+  cursor: pointer; /* Cursor tipo puntero */
+  transition: all 0.3s ease; /* Efecto de transición */
+}
+
+/* Cuando una talla es seleccionada, cambia de color */
+#selector-tallas input[type="radio"]:checked + label {
+  background-color: #333; /* Fondo oscuro */
+  color: #fff; /* Texto en blanco */
+  border-color: #333; /* Borde oscuro */
+}
+
+
+/*---------------------------------------------------------------------------------------------------*/
+/*---------------------------------------------------------------------------------------------------*/
+/* Inicio Framework boton Añadir al carrito */
+/*---------------------------------------------------------------------------------------------------*/
+/*---------------------------------------------------------------------------------------------------*/
+
+#boton-carrito {
+  padding: 15px 30px; /* Tamaño del botón */
+  font-size: 18px; /* Tamaño del texto */
+  text-transform: uppercase; /* Convierte el texto a mayúsculas */
+  letter-spacing: 2.5px; /* Espaciado entre letras */
+  font-weight: 500; /* Grosor del texto */
+  color: #ffffff; /* Texto en color blanco */
+  background-color: #000000; /* Fondo negro */
+  border: none; /* Sin bordes */
+  border-radius: 45px; /* Bordes redondeados */
+  box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1); /* Sombra suave */
+  transition: all 0.3s ease; /* Efecto de transición */
+  cursor: pointer; /* Cursor tipo puntero */
+  width: 100%; /* Ocupa todo el ancho disponible */
+  margin-top: 20px; /* Espaciado superior */
+}
+
+/* Efecto al pasar el mouse sobre el botón */
+#boton-carrito:hover {
+  background-color: #23c483; /* Cambio de color al verde */
+  box-shadow: 0px 15px 20px rgba(46, 229, 157, 0.4); /* Aumenta la sombra */
+  transform: translateY(-7px); /* Mueve ligeramente el botón hacia arriba */
+}
+
+/* Efecto al hacer clic en el botón */
+#boton-carrito:active {
+  transform: translateY(-1px); /* Reduce ligeramente la elevación */
+}
+
+
+/*---------------------------------------------------------------------------------------------------*/
+/*---------------------------------------------------------------------------------------------------*/
+/* Final Framework boton Añadir al carrito */
+/*---------------------------------------------------------------------------------------------------*/
+/*---------------------------------------------------------------------------------------------------*/
+
+
+
+
+/*----------------------------------------------- Estilos para la página de ropa -------------------------------------------*/
+#contenido-ropa {
+  width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+#contenido-ropa h1 {
+  text-align: center;
+  font-size: 32px;
+  margin: 20px 0 40px;
+  color: #333;
+}
+
+#contenedor-productos1 {
+  display: flex;
+  justify-content: space-between;
+  gap: 20px;
+  margin-bottom: 40px;
+}
+
+#producto1 a {
+  text-decoration: none;
+  color: inherit;
+  display: block; 
+}
+
+#producto1 img {
+  width: 100%;
+  height: 400px;
+  object-fit: cover;
+  margin-bottom: 15px;
+}
+
+#producto1 h2 {
+  font-size: 18px;
+  text-align: center;
+  margin: 0;
+  padding: 0 10px;
+}
+
+#producto1 {
+    width: 100%;
+}
+
+#producto1 img {
+    height: 100%;
+}
+
+
+/*---------------------------------- Estilos para la página de contacto ----------------------------------*/
+#contenido-contacto {
+  width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+  min-height: calc(100vh - 200px);
+}
+
+#contenido-contacto h1 {
+  text-align: center;
+  font-size: 32px;
+  margin: 20px 0 40px;
+  color: #333;
+}
+
+#formulario-contacto {
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #f8f8f8;
+  border-radius: 8px;
+}
+
+#campo-formulario {
+  margin-bottom: 20px;
+}
+
+#campo-formulario label {
+  display: block;
+  margin-bottom: 5px;
+  font-weight: bold;
+  color: #333;
+}
+
+#campo-formulario input,
+#campo-formulario textarea {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  font-size: 16px;
+}
+
+#campo-formulario textarea {
+  resize: vertical;
+  min-height: 100px;
+}
+
+#boton-enviar {
+  width: 100%;
+  padding: 15px;
+  background-color: #000;
+  color: #fff;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+#info-adicional {
+  margin-top: 40px;
+  text-align: center;
+}
+
+#contacto-directo {
+  display: flex;
+  justify-content: center;
+  gap: 40px;
+  margin-top: 20px;
+}
+
+#contacto-item {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+#icono-contacto {
+  width: 24px;
+  height: 24px;
+  object-fit: contain;
+}
+
+#contacto-item p {
+  margin: 0;
+  color: #333;
+}
+
+
+
+/*------------------------------------------- Estilos para la página de inicio de sesión y registro -----------------------------------*/
+#contenido-login {
+  width: 100%;
+  min-height: calc(100vh - 200px);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+}
+
+#formulario-login {
+  width: 100%;
+  max-width: 400px;
+  padding: 40px;
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+#formulario-login h1 {
+  text-align: center;
+  font-size: 32px;
+  margin-bottom: 30px;
+  color: #333;
+}
+
+#login-form {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+#campo-login {
+  width: 92%;
+  padding: 5px;
+}
+
+#campo-login input {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  font-size: 16px;
+}
+
+#campo-login input:focus {
+  outline: none;
+  border-color: #333;
+}
+
+#botones-login {
+  display: flex;
+  gap: 15px;
+  margin-top: 10px;
+}
+
+#boton-iniciar,
+#boton-registrar {
+  flex: 1;
+  padding: 12px;
+  font-size: 16px;
+  border-radius: 4px;
+  cursor: pointer;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+}
+
+#boton-iniciar {
+  background-color: #000;
+  color: #fff;
+  border: none;
+}
+
+#boton-registrar {
+  background-color: #fff;
+  color: #000;
+  border: 1px solid #000;
+}
+
+
+
+/*---------------------------------------------------------------------------------------------------*/
+/*---------------------------------------------------------------------------------------------------*/
+/* Inicio Framework boton Modo oscuro */
+/*---------------------------------------------------------------------------------------------------*/
+/*---------------------------------------------------------------------------------------------------*/
+
+
+/*-----------------------------------------------------Boton modo oscuro-----------------------------------*/
+/* Define la apariencia y el comportamiento del botón de cambio de modo oscuro */
+.toggle {
+  width: 45px;
+  height: 45px;
+  border-radius: 50%;
+  display: grid;
+  place-items: center;
+  cursor: pointer;
+  box-shadow: 0 0 50px 20px rgba(0, 0, 0, 0.1);
+  margin-left: 50px;
+  background-color: #000;
+}
+
+.input {
+  display: none; /* Oculta el input */
+}
+
+.icon {
+  grid-column: 1 / 1;
+  grid-row: 1 / 1;
+  transition: transform 500ms;
+}
+
+/* Icono de la luna (modo claro) */
+.icon--moon {
+  transition-delay: 200ms;
+  color: #8983f7;
+}
+
+/* Icono del sol (modo oscuro) */
+.icon--sun {
+  transform: scale(0);
+  color: yellow;
+}
+
+/* Animaciones al activar el modo oscuro */
+#switch:checked + .icon--moon {
+  transform: rotate(360deg) scale(0);
+}
+
+#switch:checked ~ .icon--sun {
+  transition-delay: 200ms;
+  transform: scale(1) rotate(360deg);
+}
+
+
+/* -----------------------------------------------------------------Estilos del modo oscuro----------------------------------------------- */
+/* Define los cambios de estilo cuando se activa el modo oscuro */
+body.modo-oscuro {
+  background-color: #1a1a1a;
+  color: #ffffff;
+}
+
+/* Ajuste de colores en el resumen de compra */
+body.modo-oscuro #resumen-compra {
+  background-color: #2c2c2c;
+  color: #ffffff;
+}
+
+/* Ajuste de colores en los textos de productos */
+body.modo-oscuro #detalles-producto p,
+body.modo-oscuro #contenido-contacto h1,
+body.modo-oscuro #contacto-item p,
+body.modo-oscuro #contenido-botas h1,
+body.modo-oscuro #producto a,
+body.modo-oscuro #contenido-ropa h1,
+body.modo-oscuro #producto1 a,
+body.modo-oscuro #contenido-producto h1,
+body.modo-oscuro #descripcion p {
+  color: #ffffff;
+}
+
+/* Ajuste del color de las etiquetas de selección de tallas */
+body.modo-oscuro #selector-tallas label {
+  color: #000;
+}
+
+/* Ajuste del icono del modo oscuro */
+.modo-oscuro .icono-modo::before {
+  background-color: #1a1a1a;
+}
+
+
+/* ----------------------------------Añadir estilos para el header--------------------------- */
+header {
+  background-color: #ffffff;
+}
+
+body.modo-oscuro header {
+  background-color: #2c2c2c;
+}
+
+/* Cambio de color en los enlaces del header */
+body.modo-oscuro nav ul li a,
+body.modo-oscuro header a {
+  color: #ffffff;
+}
+
+
+/*---------------------------------------------------------------------------------------------------*/
+/*---------------------------------------------------------------------------------------------------*/
+/* Final Framework boton Modo oscuro */
+/*---------------------------------------------------------------------------------------------------*/
+/*---------------------------------------------------------------------------------------------------*/
+
+
+
+/* ----------------------------------------------------------------Estilos Responsive------------------------------------------------------ */
+/* Define los cambios de estilo para diferentes tamaños de pantalla */
+/*Ajustes adicionales para el modo oscuro en dispositivos móviles */
+@media screen and (max-width: 768px) {
+  body.modo-oscuro #formulario-login,
+  body.modo-oscuro #formulario-contacto {
+    background-color: #2c2c2c;
+  }
+}
+
+/* Estilos para pantallas hasta 1200px de ancho */
+@media screen and (max-width: 1200px) {
+  #contenido-hombre,
+  #contenido-carrito,
+  #contenido-botas,
+  #contenido-producto,
+  #contenido-ropa,
+  #contenido-contacto {
+    width: 95%;
+  }
+
+  #categorias-hombre,
+  #contenedor-productos,
+  #contenedor-productos1 {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+
+  /* Estilos para pantallas hasta 992px de ancho */
+@media screen and (max-width: 992px) {
+  header #di0 {
+    flex-direction: column;
+  }
+
+  #di3 {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  #categorias-hombre,
+  #contenedor-productos,
+  #contenedor-productos1 {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  #detalles-producto {
+    flex-direction: column;
+  }
+
+  #galeria-producto,
+  #info-producto {
+    width: 100%;
+  }
+}
+
+
+/* Estilos para pantallas hasta 768px de ancho */
+/*Ajustes para tablets */
+@media screen and (max-width: 768px) {
+  /* Ajuste del header para dispositivos móviles */
+  header #di0 {
+    flex-direction: column;
+  }
+
+  nav ul {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  nav ul li {
+    margin: 10px 0;
+  }
+
+  /* Ajuste del footer para dispositivos móviles */
+  #di3 {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  /* Ajuste del carrusel para dispositivos móviles */
+  #contenedor-carrusel {
+    height: 50vh;
+  }
+
+  /* Ajuste de la página de productos para dispositivos móviles */
+  #detalles-producto {
+    flex-direction: column;
+  }
+
+  #galeria-producto,
+  #info-producto {
+    width: 100%;
+    max-width: none;
+  }
+}
+
+/* Estilos para pantallas hasta 480px de ancho */
+/*Ajustes para móviles */
+@media screen and (max-width: 480px) {
+  /* Ajuste del footer para móviles pequeños */
+  #di3 {
+    grid-template-columns: 1fr;
+  }
+
+  /* Ajuste de la página de inicio de sesión para móviles pequeños */
+  #formulario-login {
+    padding: 20px;
+  }
+
+  #campo-login {
+    width: 100%;
+    padding: 0;
+  }
+
+  #botones-login {
+    flex-direction: column;
+  }
+
+  #boton-iniciar,
+  #boton-registrar {
+    width: 100%;
+    margin-bottom: 10px;
+  }
+}
